@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <form action="./result.html" method="get" target="_blank">
+            <fieldset>
+                <table  width="100%" border="0" cellpadding="0" cellspacing="10>
+                    <tr>
+                        <td><center><img src="" height="90px" width="90px"></center></td>
+                    </tr>
+                    <tr>
+                        <td><center><h1 style="color: blue;">TELANGANA STATE ROAD TRANSPORTAT CORPORATION</h1></center></td>
+                    </tr>
+                    <tr>
+                        <td><center><H1>GENERAL BUSSPASS APPLICATION</H1></center></td>
+                    </tr>
+                </table>
+
+            </fieldset>
+        <fieldset>
+            <legend>Applicant Details</legend>
+            <label for="fullname">Name <span style="color: red;">*</span> </label>
+            <input type="text" id="fullname" name="fullname" required>
+            <label for="fathername">Father's/Guardian's name <span style="color: red;">*</span> </label>
+            <input type="text" id="fathername" name="fathername" required>
+            <br>
+            <br>
+            <label for="dob">Date of birth <span style="color: red;">*</span> </label>
+            <input type="date" id="dob" name="date of birth" required>
+            <label for="">Gender <span style="color: red;">*</span></label>
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender" value="female" required>
+            <!-- here if we want to select only one among two options like male or female we should give name as gender -->
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender" required value="male">
+            <br>
+            <br>
+            <label for="aadhar">Aadhaar No: </label>
+            <input type="number" id="aadhar" name="aadhar" maxlength="12" minlength="12">
+            <br>
+            <br>
+            <label for="whatsapp">WhatsApp No<span style="color: red;">*</span> </label>
+            <input type="number" maxlength="12" id="whatsapp" name="whatsapp" required>
+            <label for="">E=mail Id <span style="color: red;">*</span></label>
+            <input type="email" name="email" id="email" required>
+            <br>
+            <br>
+            <label for="photo">Photo <span style="color: red;">*</span></label>
+            <input type="file" name="photo" id="photo" required>
+
+            <!--radio text number date datetime datetimelocal -->
+            <br>
+
+        </fieldset>
+        <br>
+        <button>SUBMIT</button>
+    </form>
+    
+    </body>
+</html>
